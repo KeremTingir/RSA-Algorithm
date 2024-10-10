@@ -1,7 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 import os
 import json
-from revised_rsa import dosya_sifrele, dosya_coz  # RSA işlevlerinin bulunduğu dosya 
+from rsa_algorithm import dosya_sifrele, dosya_coz  # RSA işlevlerinin bulunduğu dosya 
 
 class Ui_Form(object):
     def setupUi(self, Form):
